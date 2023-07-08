@@ -10,7 +10,7 @@ def home(request):
 
 def gerenciar(request):
     contas = Conta.objects.all()
-    categorias = categoria.objects.all()
+    categorias = Categoria.objects.all()
     total_conta = 0
     for conta in contas:
         total_conta += conta.valor
@@ -64,3 +64,6 @@ def cadastrar_categoria(request):
 
     messages.add_message(request, constants.SUCCESS, 'Categoria cadastrada com sucesso')
     return redirect('/perfil/gerenciar')
+
+def update_categoria(request,):
+    return
