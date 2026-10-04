@@ -1,0 +1,5 @@
+print('eric'[-2])
+print(type('primeiro'))
+print(type(2))
+print(type(3.0))
+print(type(True))
