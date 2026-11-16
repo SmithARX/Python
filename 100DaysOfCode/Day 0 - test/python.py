@@ -1,4 +1,3 @@
-
 import random
 #imports behind 
 # print('Welcome to the Tip Calculator')
